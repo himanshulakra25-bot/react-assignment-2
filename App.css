@@ -1,0 +1,35 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; background: #d7ec8d; color: #1f2430; }
+.navbar { display: flex; justify-content:center; align-items: center; flex-wrap: wrap; gap: 8px; padding: 14px 24px; background: #050508; color: #fff; }
+.stats { display: flex; gap: 16px; font-size: 14px; }
+.container { max-width: 760px; margin: 24px auto; padding: 0 16px; display: grid; gap: 20px; }
+.card { background: #b6f7a0; border-radius: 10px; padding: 20px; box-shadow: 0 1px 4px rgba(0,0,0,.08); }
+.card-title { margin-bottom: 14px; font-size: 18px; }
+.form { display: grid; gap: 12px; }
+label { display: grid; gap: 4px; font-size: 14px; font-weight: 600; }
+input, textarea, select { padding: 9px 10px; border: 1px solid #c8ccd8; border-radius: 6px; font: inherit; font-weight: 400; }
+input:focus, textarea:focus, select:focus { outline: 2px solid #3b3f8f55; }
+.input-error { border-color: #d33; }
+.error { color: #d33; font-size: 13px; margin-top: -6px; }
+.btn { padding: 8px 14px; border: none; border-radius: 6px; cursor: pointer; font: inherit; font-size: 14px; }
+.btn-primary { background: #656bde; color: #fff; }
+.btn-success { background: #1f9d55; color: #fff; }
+.btn-danger { background: #d33; color: #fff; }
+.controls { display: grid; gap: 10px; margin-bottom: 14px; }
+.filters { display: flex; gap: 8px; }
+.filter-btn { background: #e6e8f2; }
+.filter-btn.active { background: #3b3f8f; color: #fff; }
+.task-list { list-style: none; display: grid; gap: 10px; }
+.task-card { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 14px; border: 1px solid #e1e4ee; border-left: 5px solid #e0a800; border-radius: 8px; }
+.task-card.done { border-left-color: #1f9d55; background: #f6fbf8; }
+.task-info p { font-size: 14px; color: #555; margin: 4px 0 8px; }
+.strike { text-decoration: line-through; color: #777; }
+.badges { display: flex; gap: 6px; }
+.badge { font-size: 12px; padding: 2px 8px; border-radius: 999px; color: #fff; }
+.priority-low { background: #5b8def; }
+.priority-medium { background: #e08a00; }
+.priority-high { background: #d33; }
+.status-pending { background: #888; }
+.status-completed { background: #1f9d55; }
+.task-actions { display: flex; gap: 8px; align-items: center; }
+.empty { text-align: center; color: #777; padding: 24px 0; }
